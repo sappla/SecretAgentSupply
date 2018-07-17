@@ -1,3 +1,36 @@
 html {
+  font-family: Helvetica;
   font-size: 18px;
+}
+
+.site-container {
+  width: 960px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.top-logo {
+  background-color: black;
+}
+
+.top-logo img {
+  height: 1.5rem;
+  padding: 0 0.5rem;
+
+  border: 2px dotted blue;
+}
+
+.top-logo p {
+  padding: 0.66rem 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+  display: inline-block;
+
+
+  border: 2px dotted red;
 }
