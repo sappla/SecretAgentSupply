@@ -1,10 +1,12 @@
 html {
   font-family: Helvetica;
   font-size: 18px;
+  background-color: whitesmoke;
 }
 
 .site-container {
   width: 960px;
+  margin: 0 auto;
 }
 
 .flex-container {
@@ -14,6 +16,8 @@ html {
 
 .top-logo {
   background-color: black;
+
+  //padding: 0 7rem;
 }
 
 .top-logo img {
@@ -33,4 +37,35 @@ html {
 
 
   border: 2px dotted red;
+}
+
+.banner {
+  height: 25rem;
+  background-image: url("../media/images/moto.jpg");
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  //padding: 0 7rem;
+}
+
+.new-arrivals {
+  position: absolute;
+  top: 9rem;
+  width: 25rem;
+  background-color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.new-arrivals p {
+  padding: 2rem 0 0.125rem 3rem;
+  font-size: 1rem;
+}
+
+.new-arrivals h1 {
+  padding: 0.125rem 0 2rem 3rem;
+  font-size: 2rem;
 }
