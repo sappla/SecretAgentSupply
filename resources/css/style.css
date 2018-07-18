@@ -13,7 +13,8 @@ html {
 .top-logo,
 .banner,
 nav,
-main {
+main,
+footer {
   padding: 0 7rem;
 }
 
@@ -93,9 +94,6 @@ main {
 .showroom {
   padding: 3rem 0 1.5rem 0;
   justify-content: space-between;
-
-  border: 2px dotted pink;
-
 }
 
 .gadget-item {
@@ -127,14 +125,10 @@ main {
   justify-content: space-between;
   background-color: white;
   padding: 1.5rem 0 4rem 0;
-
-  border: 2px dotted yellow;
 }
 
 .contact-item {
   width: 35%;
-
-  border: 2px dotted green;
 }
 
 .tab-title {
@@ -145,4 +139,9 @@ main {
 .contact-item p:nth-of-type(2) {
   color: black;
   padding-top: 0.5rem;
+}
+
+footer {
+  background-color: black;
+  height: 7.5rem;
 }
