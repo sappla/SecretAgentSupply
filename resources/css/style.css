@@ -81,9 +81,6 @@ nav ul {
   flex-wrap: nowrap;
   justify-content: space-between;
   padding: 0.75rem 0;
-
-  border: 2px dotted yellow;
-
 }
 
 .nav-btn {
@@ -94,7 +91,7 @@ main {
   background-color: white;
 }
 .showroom {
-  padding: 3rem 0;
+  padding: 3rem 0 1.5rem 0;
   justify-content: space-between;
 
   border: 2px dotted pink;
@@ -112,7 +109,6 @@ main {
   background-color: white;
   height: 9rem;
   margin: 2rem auto;
-  align-items: center;
 }
 
 .img-container img {
@@ -125,4 +121,28 @@ main {
   padding: 1rem 0 0.5rem 0;
   width: 100%;
   text-align: center;
+}
+
+.contact {
+  justify-content: space-between;
+  background-color: white;
+  padding: 1.5rem 0 4rem 0;
+
+  border: 2px dotted yellow;
+}
+
+.contact-item {
+  width: 35%;
+
+  border: 2px dotted green;
+}
+
+.tab-title {
+  background-color: black;
+  padding: 1rem 0 0.5rem 2rem;
+}
+
+.contact-item p:nth-of-type(2) {
+  color: black;
+  padding-top: 0.5rem;
 }
