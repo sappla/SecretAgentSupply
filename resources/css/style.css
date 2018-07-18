@@ -12,7 +12,8 @@ html {
 
 .top-logo,
 .banner,
-nav {
+nav,
+main {
   padding: 0 7rem;
 }
 
@@ -87,4 +88,41 @@ nav ul {
 
 .nav-btn {
   display: inline;
+}
+
+main {
+  background-color: white;
+}
+.showroom {
+  padding: 3rem 0;
+  justify-content: space-between;
+
+  border: 2px dotted pink;
+
+}
+
+.gadget-item {
+  width: 30%;
+  border: 4px solid black;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.img-container {
+  background-color: white;
+  height: 9rem;
+  margin: 2rem auto;
+  align-items: center;
+}
+
+.img-container img {
+  height: auto;
+  max-width: 9rem;
+}
+
+.item-title {
+  background-color: black;
+  padding: 1rem 0 0.5rem 0;
+  width: 100%;
+  text-align: center;
 }
