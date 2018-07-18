@@ -1,12 +1,19 @@
 html {
   font-family: Helvetica;
   font-size: 18px;
+  color: white;
   background-color: whitesmoke;
 }
 
 .site-container {
-  width: 960px;
+  width: 1212px; /* 960px + 7rem both sides */
   margin: 0 auto;
+}
+
+.top-logo,
+.banner,
+nav {
+  padding: 0 7rem;
 }
 
 .flex-container {
@@ -16,15 +23,13 @@ html {
 
 .top-logo {
   background-color: black;
-
-  //padding: 0 7rem;
 }
 
 .top-logo img {
   height: 1.5rem;
   padding: 0 0.5rem;
 
-  border: 2px dotted blue;
+  //border: 2px dotted blue;
 }
 
 .top-logo p {
@@ -32,11 +37,10 @@ html {
   font-size: 1rem;
   text-transform: uppercase;
   white-space: nowrap;
-  color: white;
   display: inline-block;
 
 
-  border: 2px dotted red;
+  //border: 2px dotted red;
 }
 
 .banner {
@@ -46,8 +50,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  //padding: 0 7rem;
 }
 
 .new-arrivals {
@@ -57,7 +59,6 @@ html {
   background-color: black;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
 }
 
 .new-arrivals p {
@@ -68,4 +69,22 @@ html {
 .new-arrivals h1 {
   padding: 0.125rem 0 2rem 3rem;
   font-size: 2rem;
+}
+
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+
+  border: 2px dotted yellow;
+
+}
+
+.nav-btn {
+  display: inline;
 }
