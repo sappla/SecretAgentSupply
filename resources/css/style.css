@@ -165,7 +165,7 @@ footer {
   }
 
   .new-arrivals p {
-    font-size: 0.80rem;
+    font-size: 0.85rem;
   }
 
   .new-arrivals h1 {
@@ -186,5 +186,80 @@ footer {
   nav {
     display: none;
   }
+}
+
+@media only screen and (max-width: 470px) {
+  .top-logo,
+  nav,
+  main,
+  footer {
+    padding: 0 1rem;
+  }
+
+  .banner {
+    padding: 0;
+    height: 12rem;
+  }
+
+
+  .new-arrivals {
+    top: 10rem;
+    width: 100%;
+    background-color: black;
+  }
+
+  .new-arrivals p {
+    padding: 1rem 0 0.05rem 2rem;
+    font-size: 0.77rem;
+  }
+
+  .new-arrivals h1 {
+    padding: 0.05rem 0 1rem 2rem;
+    font-size: 1rem;
+  }
+
+  #menu-nav {
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0;
+  }
+
+  .showroom {
+    justify-content: center;
+  }
+
+  .gadget-item {
+    width: 90%;
+  }
+
+  #gadget-2,
+  #gadget-3,
+  nav {
+    display: none;
+  }
+
+  .contact {
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1.5rem 0 4rem 0;
+  }
+
+  .contact-item {
+    width: 90%;
+  }
+
+  .contact-item:first-child {
+    margin-bottom: 0.5rem;
+  }
+
+
+  footer {
+    justify-content: center;
+  }
+
+
+
+
 
 }
