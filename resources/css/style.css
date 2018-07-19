@@ -6,7 +6,7 @@ html {
 }
 
 .site-container {
-  width: 1212px; /* 960px + 7rem both sides */
+  max-width: 1212px; /* 960px + 7rem both sides */
   margin: 0 auto;
 }
 
@@ -71,6 +71,10 @@ footer {
 .new-arrivals h1 {
   padding: 0.125rem 0 2rem 3rem;
   font-size: 2rem;
+}
+
+#menu {
+  
 }
 
 nav {
@@ -144,4 +148,35 @@ main {
 footer {
   background-color: black;
   height: 7.5rem;
+}
+
+@media only screen and (max-width: 1212px) {
+  .top-logo,
+  .banner,
+  nav,
+  main,
+  footer {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .top-logo,
+  .banner,
+  nav,
+  main,
+  footer {
+    padding: 0;
+  }
+
+  #gadget-3 {
+    border-color: yellow;
+
+  }
+
+  .gadget-item {
+    width: 47%;
+  }
+
+
 }
