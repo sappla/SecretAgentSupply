@@ -30,19 +30,14 @@ footer {
 .top-logo img {
   height: 1.5rem;
   padding: 0 0.5rem;
-
-  //border: 2px dotted blue;
 }
 
 .top-logo p {
-  padding: 0.66rem 0.5rem;
+  padding: 1.25rem 0.5rem;
   font-size: 1rem;
   text-transform: uppercase;
   white-space: nowrap;
   display: inline-block;
-
-
-  //border: 2px dotted red;
 }
 
 .banner {
@@ -73,8 +68,8 @@ footer {
   font-size: 2rem;
 }
 
-#menu {
-  
+#menu-nav {
+  display: none;
 }
 
 nav {
@@ -156,7 +151,7 @@ footer {
   nav,
   main,
   footer {
-    padding: 0 3rem;
+    padding: 0 5rem;
   }
 }
 
@@ -166,17 +161,30 @@ footer {
   nav,
   main,
   footer {
-    padding: 0;
+    padding: 0 3rem;
   }
 
-  #gadget-3 {
-    border-color: yellow;
+  .new-arrivals p {
+    font-size: 0.80rem;
+  }
 
+  .new-arrivals h1 {
+    font-size: 1.5rem;
+  }
+
+  #menu-nav {
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0;
   }
 
   .gadget-item {
     width: 47%;
   }
 
+  #gadget-3,
+  nav {
+    display: none;
+  }
 
 }
